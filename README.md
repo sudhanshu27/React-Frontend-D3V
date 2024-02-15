@@ -2,7 +2,8 @@
   
 **Objective:**  
 ***The objective of this assignment is to build a ReactJS application that consumes the REST API provided and provides a user interface for users to interact with the products data.***  
-    
+
+Live link: https://react-frontend-d3v.netlify.app/  
   
 ***How to launch the application locally***  
 * clone the repo or download the zip file
