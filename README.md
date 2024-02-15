@@ -10,9 +10,8 @@ Live link: https://react-frontend-d3v.netlify.app/
 * install node modules using `npm install`
 * start the application using `npm run dev`
   
-  
-***the structutr of the applocation***  
-**Project Structure**  
+   
+**Project Structure of the applocation**  
 ***Every component contain 2 files Component.jsx and Component.css***  
 
 ```
