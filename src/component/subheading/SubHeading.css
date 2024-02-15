@@ -1,0 +1,9 @@
+.sub-heading {
+  color: #64748b;
+  text-align: center;
+  /* border: 1px solid; */
+  width: 90%;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0.25rem;
+}

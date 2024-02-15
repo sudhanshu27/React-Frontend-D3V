@@ -1,0 +1,19 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-size: x-large;
+}
+.page-num{
+    border: 1px solid;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3rem;
+}
+.footer-btn{
+    padding: 0 0.8rem 0 0.8rem ;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.login-box{
+    width: 20rem;
+    height: 25rem;
+    background: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 450px) {
+
+    .login-box{
+        width: 14rem;
+        height: 26rem;
+    }
+}

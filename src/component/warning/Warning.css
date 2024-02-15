@@ -1,0 +1,21 @@
+.warning-box{
+ font-size: 0.9rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.warning-text{
+    margin: 0.3rem;
+}
+.link-text{
+    color: black;
+    /* text-decoration: none; */
+}
+@media (max-width: 400px) {
+
+    .warning-box{
+        display: block;
+        text-align: center;
+    }
+
+}

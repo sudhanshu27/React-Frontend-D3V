@@ -1,0 +1,18 @@
+.log{
+    margin: 3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: large;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 450px) {
+
+    .log{
+        margin: 1rem 0 0 0;
+        font-size: small;
+        padding: 0.2rem;
+
+    }
+}

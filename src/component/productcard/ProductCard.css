@@ -1,0 +1,33 @@
+.card {
+  width: 20rem;
+  height: 12rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(134, 199, 159);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.6s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card:hover {
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+.details{
+    margin-bottom: 3rem;
+}
+.title {
+  font-size: x-large;
+  font-weight: 600;
+}
+.price {
+  font-size: large;
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 13rem;
+  }
+}

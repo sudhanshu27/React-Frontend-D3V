@@ -1,0 +1,65 @@
+.top {
+  display: grid;
+  justify-items: center;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 8.3rem;
+  background-color: rgb(115, 182, 142);
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+.line {
+  border-top: 3px solid black;
+  position: fixed;
+  top: 8.1rem; /* Adjust this value based on your Heading's height */
+  width: 92%;
+  z-index: 2000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-left: 1rem;
+}
+.dashboard-grid {
+  width: 100vw;
+  height: auto;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
+  margin-top: 8rem;
+  background-color: rgb(222, 247, 229);
+}
+.search-sort {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background-color: rgb(115, 182, 142);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 450px) {
+  .my-info {
+    width: 3rem;
+  }
+  .logout {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+@media (min-width: 781px) and (max-width: 1200px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

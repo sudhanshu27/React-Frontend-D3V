@@ -1,0 +1,16 @@
+.box{
+    width: 20rem;
+    height: 33rem;
+    background: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 450px) {
+
+    .box{
+        width: 14rem;
+        height: 34.5rem;
+    }
+}
