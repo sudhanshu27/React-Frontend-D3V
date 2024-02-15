@@ -5,7 +5,7 @@
     
   
 ***How to launch the application locally***  
-* clone the repo or donwload the zip file
+* clone the repo or download the zip file
 * install node modules using `npm install`
 * start the application using `npm run dev`
   
