@@ -11,7 +11,7 @@ Live link: https://react-frontend-d3v.netlify.app/
 * start the application using `npm run dev`
   
    
-**Project Structure of the applocation**  
+**Project Structure of the application**  
 ***Every component contain 2 files Component.jsx and Component.css***  
 
 ```
