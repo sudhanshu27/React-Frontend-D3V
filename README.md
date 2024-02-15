@@ -60,19 +60,19 @@ Live link: https://react-frontend-d3v.netlify.app/
 3. On home route you can use these features
    - Search by Name or Description
    - Sort by Name
-   - Sorct by Price
+   - Sort by Price
    - Pagination (10 products per page)
-4. On top left you can se your initial if you are an "Authenticated User" otherwise "NA"
-5. On top right you can logout and get rediredted to login page,if present it also clears the "JWT Token" from local storage.
+4. On top left you can see your initial if you are an "Authenticated User" otherwise "NA"
+5. On top right you can logout and gets redirected to login page, if present it also clears the "JWT Token" from your local storage.
 6. Login only Works for JWT Authenticated Users.
-7. You can use following username and password to login, more available on https://dummyjson.com/users
-   - "username": "rshawe2","password": "OWsTbMUgFc",
-   - "username": "hbingley1","password": "CQutx25i8r",
-   - "username": "atuny0","password": "9uQFF1Lh",
+7. You can use following usernames and passwords to login, more available on https://dummyjson.com/users
+   - "username": "rshawe2", "password": "OWsTbMUgFc"
+   - "username": "hbingley1", "password": "CQutx25i8r"
+   - "username": "atuny0", "password": "9uQFF1Lh"
 8. After successful Login you get a JWT Token back that is being stored in your local storage.
 9. Register works for all the Users.
-10. If you register using fisrtname and lastname you can see your initials on top left otherwise "NA"
-11. Each product has a "View Details" button on click you gets redirect to "/product" routes.
+10. If you register using firstname and lastname you can see your initials on top left otherwise "NA"
+11. Each product has a "View Details" button on clicking it you gets redirect to "/product" routes.
 12. On "/product" route you can see detailed information about a product including image, price etc.
 13. This application has a "responsive design" that looks good on desktop and mobile devices.
 
