@@ -53,7 +53,7 @@ Live link: https://react-frontend-d3v.netlify.app/
 ***How to use the application***  
 1. Project is live on Netlify: https://react-frontend-d3v.netlify.app/
 2. Routes:
-   - home:  "/"
+   - home/dashboard:  "/"
    - login: "/login"
    - register "/register"
    - product "/product"
